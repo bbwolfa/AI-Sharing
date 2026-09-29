@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>AI 报告阅读器</title>
+  <link rel="stylesheet" href="reader.css">
+  <script src="reader.js" defer></script>
+</head>
+<body>
+  <button id="sidebar-scrim" aria-label="关闭日期列表" type="button"></button>
+  <aside class="sidebar" aria-label="日期、报告和文章导航">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">AI</div>
+      <div><strong>报告阅读器</strong><p>Automation · 本地阅读与归档</p></div>
+    </div>
+    <div class="sidebar-controls">
+      <div class="filters" role="group" aria-label="阅读状态筛选">
+        <button data-filter="all" aria-pressed="true" type="button">全部 <span data-count="all">0</span></button>
+        <button data-filter="unread" aria-pressed="false" type="button">待阅读 <span data-count="unread">0</span></button>
+        <button data-filter="favorites" aria-pressed="false" type="button">★ 收藏 <span data-count="favorites">0</span></button>
+        <button data-filter="archived" aria-pressed="false" type="button">已归档文件 <span data-count="archived">0</span></button>
+      </div>
+      <div class="kind-filters" role="group" aria-label="报告类型">
+        <label><input type="checkbox" data-kind="learning" checked> Learning</label>
+        <label><input type="checkbox" data-kind="briefing" checked> Briefing</label>
+      </div>
+    </div>
+    <nav id="date-list" class="date-list" aria-label="三级报告目录" tabindex="-1">
+      <p class="list-empty">正在读取归档目录…</p>
+    </nav>
+    <div class="sidebar-footer">
+      <span class="local-dot" aria-hidden="true"></span><strong>仅本机访问 · 不上传报告</strong>
+      <p>每篇文章独立已读、收藏及记录原因。<br>全部读完自动标记所属报告已读。</p>
+      <p id="archive-root" class="root-path"></p>
+    </div>
+  </aside>
+  <main class="reader-main">
+    <header class="toolbar">
+      <div class="heading-group">
+        <button id="toggle-sidebar" class="mobile-menu" type="button" aria-label="选择日期">☰</button>
+        <div>
+          <div class="eyebrow">DAILY AUTOMATION BRIEFING</div>
+          <h1 id="selected-date">选择一天开始阅读</h1>
+          <div id="selected-meta" class="selected-meta">左侧切换日期，右侧阅读完整报告。</div>
+          <nav id="breadcrumbs" class="breadcrumbs" aria-label="当前阅读位置"></nav>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="refresh" class="button secondary" type="button">刷新</button>
+        <a id="download" class="button secondary" aria-disabled="true">下载当天 HTML</a>
+        <button id="unarchive" class="button secondary" type="button" disabled>整天设为未读</button>
+        <button id="archive" class="button secondary" type="button" disabled>整天已读并归档</button>
+      </div>
+    </header>
+    <div id="message" class="message" role="status" aria-live="polite" hidden>
+      <span id="message-text"></span>
+      <button id="reload-report" type="button" hidden>重新加载当前报告</button>
+      <button id="dismiss-message" type="button" aria-label="关闭提示">×</button>
+    </div>
+    <section class="document-area" aria-label="报告阅读区">
+      <div id="document-placeholder" class="document-placeholder">
+        <div class="document-symbol" aria-hidden="true">▤</div>
+        <h2 id="placeholder-title">正在加载你的报告</h2>
+        <p id="placeholder-text">日期和阅读状态直接来自现有归档文件。</p>
+      </div>
+      <iframe id="report-frame" title="所选日期的完整报告" hidden
+              sandbox="allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+              referrerpolicy="no-referrer"></iframe>
+    </section>
+    <footer class="reader-footer">
+      <span id="reader-status" aria-live="polite">原始报告与阅读状态保持在 OneDrive 目录中。</span>
+      <span>逐篇确认当前版本 · 全部读完自动完成所属报告</span>
+    </footer>
+  </main>
+  <dialog id="favorite-dialog" aria-labelledby="favorite-title">
+    <form id="favorite-form">
+      <h2 id="favorite-title">收藏文章</h2>
+      <p id="favorite-article-title"></p>
+      <label for="favorite-reason">收藏原因（可选）</label>
+      <textarea id="favorite-reason" rows="5" placeholder="例如：想应用到项目中，或者以后深入阅读"></textarea>
+      <p class="dialog-hint">收藏与已读状态独立，原因会随 OneDrive HTML 保存。</p>
+      <p id="favorite-error" role="alert" hidden></p>
+      <div class="dialog-actions">
+        <button id="favorite-remove" class="button secondary" type="button" hidden>取消收藏</button>
+        <button id="favorite-cancel" class="button secondary" type="button">关闭</button>
+        <button id="favorite-save" class="button primary" type="submit">保存收藏</button>
+      </div>
+    </form>
+  </dialog>
+</body>
+</html>

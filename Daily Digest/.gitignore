@@ -1,0 +1,6 @@
+_history/
+_tools/__pycache__/
+*.py[cod]
+.archive.lock
+.DS_Store
+Thumbs.db

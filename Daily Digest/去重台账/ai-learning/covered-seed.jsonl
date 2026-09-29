@@ -1,0 +1,105 @@
+{"id":"2605.23904","kind":"arxiv","title":"SkillOpt：把 Skill 文件当作可训练参数（跨 Harness 迁移）","first_seen":"2026-08-24","seen_dates":"2026-08-24,2026-08-30","source":"seed-from-history"}
+{"id":"2605.23950","kind":"arxiv","title":"Harness 决定论：Coherence Debt + 不披露 Harness 就别比模型","first_seen":"2026-08-24","seen_dates":"2026-08-24","source":"seed-from-history"}
+{"id":"2606.06090","kind":"arxiv","title":"MAGE：把 Memory 当作执行状态树，而不是语义检索","first_seen":"2026-08-24","seen_dates":"2026-08-24,2026-08-25,2026-08-29,2026-08-30,2026-09-01","source":"seed-from-history"}
+{"id":"2608.00267","kind":"arxiv","title":"LoopsBench：从 Harness Engineering 到 Loop Engineering","first_seen":"2026-08-24","seen_dates":"2026-08-24,2026-09-01","source":"seed-from-history"}
+{"id":"2608.08311","kind":"arxiv","title":"自我改进：Ouroboros 与 HELIX","first_seen":"2026-08-24","seen_dates":"2026-08-24","source":"seed-from-history"}
+{"id":"2608.13951","kind":"arxiv","title":"自我改进：Ouroboros 与 HELIX","first_seen":"2026-08-24","seen_dates":"2026-08-24,2026-08-27","source":"seed-from-history"}
+{"id":"2608.16630","kind":"arxiv","title":"Harness 决定论：Coherence Debt + 不披露 Harness 就别比模型","first_seen":"2026-08-24","seen_dates":"2026-08-24","source":"seed-from-history"}
+{"id":"2608.17393","kind":"arxiv","title":"Harnessed Agentic RL：Agent Lightning v1.0 + LEGO-RL","first_seen":"2026-08-24","seen_dates":"2026-08-24","source":"seed-from-history"}
+{"id":"2608.17528","kind":"arxiv","title":"Harnessed Agentic RL：Agent Lightning v1.0 + LEGO-RL","first_seen":"2026-08-24","seen_dates":"2026-08-24","source":"seed-from-history"}
+{"id":"anthropic-experimental/sandbox-runtime","kind":"github","title":"8b. Anthropic sandbox-runtime (`srt`) —— 不用容器的双向隔离","first_seen":"2026-08-24","seen_dates":"2026-08-24","source":"seed-from-history"}
+{"id":"deepseek-ai/deepseek-harness","kind":"github","title":"DeepSeek Harness (`dsh`) —— 把 Harness 做成插件内核","first_seen":"2026-08-24","seen_dates":"2026-08-24,2026-08-25,2026-08-31,2026-09-01","source":"seed-from-history"}
+{"id":"HKUDS/HELIX","kind":"github","title":"自我改进：Ouroboros 与 HELIX","first_seen":"2026-08-24","seen_dates":"2026-08-24,2026-08-27","source":"seed-from-history"}
+{"id":"SWE-agent/mini-swe-agent","kind":"github","title":"8a. mini-swe-agent —— 最小集合的证明","first_seen":"2026-08-24","seen_dates":"2026-08-24","source":"seed-from-history"}
+{"id":"https://aka.ms/skillopt","kind":"web","title":"SkillOpt：把 Skill 文件当作可训练参数（跨 Harness 迁移）","first_seen":"2026-08-24","seen_dates":"2026-08-24","source":"seed-from-history"}
+{"id":"https://blog.cloudflare.com/code-mode/","kind":"web","title":"8c. Code Mode —— 工具数量爆炸的解法","first_seen":"2026-08-24","seen_dates":"2026-08-24","source":"seed-from-history"}
+{"id":"https://www.anthropic.com/engineering/code-execution-with-mcp","kind":"web","title":"8c. Code Mode —— 工具数量爆炸的解法","first_seen":"2026-08-24","seen_dates":"2026-08-24","source":"seed-from-history"}
+{"id":"https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents","kind":"web","title":"Anthropic：Managed Agents 的三体解耦 + 长任务 Harness 的一手教训","first_seen":"2026-08-24","seen_dates":"2026-08-24","source":"seed-from-history"}
+{"id":"https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents","kind":"web","title":"Anthropic：Managed Agents 的三体解耦 + 长任务 Harness 的一手教训","first_seen":"2026-08-24","seen_dates":"2026-08-24,2026-08-30","source":"seed-from-history"}
+{"id":"https://www.anthropic.com/engineering/managed-agents","kind":"web","title":"Anthropic：Managed Agents 的三体解耦 + 长任务 Harness 的一手教训","first_seen":"2026-08-24","seen_dates":"2026-08-24,2026-08-25,2026-08-31","source":"seed-from-history"}
+{"id":"2606.12344","kind":"arxiv","title":"Claw-SWE-Bench —— harness 到底值多少个百分点？","first_seen":"2026-08-25","seen_dates":"2026-08-25","source":"seed-from-history"}
+{"id":"2608.23552","kind":"arxiv","title":"Prime Agent: A Self-Improving RLM Harness","first_seen":"2026-08-25","seen_dates":"2026-08-25,2026-08-31,2026-09-01","source":"seed-from-history"}
+{"id":"2608.23564","kind":"arxiv","title":"SWE Refactor Bench：Blindness 与三阶段验证","first_seen":"2026-08-25","seen_dates":"2026-08-25,2026-08-27,2026-08-28,2026-08-31","source":"seed-from-history"}
+{"id":"opensquilla/claw-swe-bench","kind":"github","title":"Claw-SWE-Bench —— harness 到底值多少个百分点？","first_seen":"2026-08-25","seen_dates":"2026-08-25","source":"seed-from-history"}
+{"id":"PrimeIntellect-ai/prime-agent","kind":"github","title":"Prime Agent: A Self-Improving RLM Harness","first_seen":"2026-08-25","seen_dates":"2026-08-25,2026-08-29,2026-08-31,2026-09-01","source":"seed-from-history"}
+{"id":"https://cursor.com/blog/self-driving-codebases","kind":"web","title":"Cursor: Self-Driving Codebases —— 多 agent 协作的失败史","first_seen":"2026-08-25","seen_dates":"2026-08-25","source":"seed-from-history"}
+{"id":"https://cursor.com/blog/self-summarization","kind":"web","title":"Cursor: Self-Summarization —— 把压缩训练进模型","first_seen":"2026-08-25","seen_dates":"2026-08-25","source":"seed-from-history"}
+{"id":"https://www.anthropic.com/engineering/harness-design-long-running-apps","kind":"web","title":"Anthropic: Harness design for long-running application development","first_seen":"2026-08-25","seen_dates":"2026-08-25,2026-08-27,2026-08-29,2026-08-30,2026-09-01","source":"seed-from-history"}
+{"id":"https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html","kind":"web","title":"上下文失效的四种模式（Drew Breunig / Simon Willison）","first_seen":"2026-08-25","seen_dates":"2026-08-25","source":"seed-from-history"}
+{"id":"2608.11274","kind":"arxiv","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"2608.11386","kind":"arxiv","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"2608.11727","kind":"arxiv","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"2608.12851","kind":"arxiv","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"2608.14380","kind":"arxiv","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"2608.15127","kind":"arxiv","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"2608.18066","kind":"arxiv","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"2608.21690","kind":"arxiv","title":"Context as an Environment：Scroll —— 把 context 管理变成写程序","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"2608.22237","kind":"arxiv","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27,2026-08-28","source":"seed-from-history"}
+{"id":"2608.22752","kind":"arxiv","title":"The Compaction Cliff：压缩不该是均匀的","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"2608.23041","kind":"arxiv","title":"Harness 自动优化集群：JIT-Agent / StarHarness / AutoSaddler / HELIX / SkillOpt","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"2608.23953","kind":"arxiv","title":"The Empire, Long Divided, Must Unite：三个 Harness 的架构收敛","first_seen":"2026-08-27","seen_dates":"2026-08-27,2026-09-01","source":"seed-from-history"}
+{"id":"2608.24188","kind":"arxiv","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27,2026-08-28,2026-08-31","source":"seed-from-history"}
+{"id":"2608.24804","kind":"arxiv","title":"Harness 自动优化集群：JIT-Agent / StarHarness / AutoSaddler / HELIX / SkillOpt","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"2608.24876","kind":"arxiv","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27,2026-08-28,2026-08-31","source":"seed-from-history"}
+{"id":"2608.25593","kind":"arxiv","title":"Harness 自动优化集群：JIT-Agent / StarHarness / AutoSaddler / HELIX / SkillOpt","first_seen":"2026-08-27","seen_dates":"2026-08-27,2026-08-29","source":"seed-from-history"}
+{"id":"Gen-Verse/Recuris","kind":"github","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27,2026-08-28,2026-08-31","source":"seed-from-history"}
+{"id":"henrymao2004/misevolve","kind":"github","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"wilsonzlin/fastrender","kind":"github","title":"工业界长任务 Harness 三连：Anthropic / Cursor / GitHub / OpenAI","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"https://blog.modelcontextprotocol.io/posts/2026-07-28/","kind":"web","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"https://cursor.com/blog/scaling-agents","kind":"web","title":"工业界长任务 Harness 三连：Anthropic / Cursor / GitHub / OpenAI","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"https://developers.openai.com/blog/codex-as-a-platform","kind":"web","title":"工业界长任务 Harness 三连：Anthropic / Cursor / GitHub / OpenAI","first_seen":"2026-08-27","seen_dates":"2026-08-27,2026-08-29,2026-08-30,2026-09-01","source":"seed-from-history"}
+{"id":"https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/","kind":"web","title":"工业界长任务 Harness 三连：Anthropic / Cursor / GitHub / OpenAI","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"https://huggingface.co/datasets/searchsim/AgentArtifactCorpus","kind":"web","title":"The Compaction Cliff：压缩不该是均匀的","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"https://modelcontextprotocol.io/specification/2026-07-28","kind":"web","title":"第二梯队：值得扫一眼，不值得展开","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/","kind":"web","title":"Harness 自动优化集群：JIT-Agent / StarHarness / AutoSaddler / HELIX / SkillOpt","first_seen":"2026-08-27","seen_dates":"2026-08-27","source":"seed-from-history"}
+{"id":"2608.13867","kind":"arxiv","title":"第二梯队（值得知道，暂不展开）","first_seen":"2026-08-28","seen_dates":"2026-08-28","source":"seed-from-history"}
+{"id":"2608.18580","kind":"arxiv","title":"第二梯队（值得知道，暂不展开）","first_seen":"2026-08-28","seen_dates":"2026-08-28","source":"seed-from-history"}
+{"id":"2608.20664","kind":"arxiv","title":"第二梯队（值得知道，暂不展开）","first_seen":"2026-08-28","seen_dates":"2026-08-28","source":"seed-from-history"}
+{"id":"2608.23651","kind":"arxiv","title":"Feedback That Backfires：把失败调用原文写回 transcript，是负收益的","first_seen":"2026-08-28","seen_dates":"2026-08-28","source":"seed-from-history"}
+{"id":"2608.23740","kind":"arxiv","title":"第二梯队（值得知道，暂不展开）","first_seen":"2026-08-28","seen_dates":"2026-08-28","source":"seed-from-history"}
+{"id":"2608.26218","kind":"arxiv","title":"Same Model, Different Harness + HarnessLens：harness 才是被测的解题器","first_seen":"2026-08-28","seen_dates":"2026-08-28,2026-08-31","source":"seed-from-history"}
+{"id":"2608.26263","kind":"arxiv","title":"SKILL.state + Recuris：execution state 正面挑战 append-only 历史","first_seen":"2026-08-28","seen_dates":"2026-08-28","source":"seed-from-history"}
+{"id":"2608.26530","kind":"arxiv","title":"第二梯队（值得知道，暂不展开）","first_seen":"2026-08-28","seen_dates":"2026-08-28,2026-08-31","source":"seed-from-history"}
+{"id":"2608.27299","kind":"arxiv","title":"When Context Gets Root：harness 自己给恶意内容\"提权\"","first_seen":"2026-08-28","seen_dates":"2026-08-28,2026-08-31,2026-09-01","source":"seed-from-history"}
+{"id":"2608.27311","kind":"arxiv","title":"Same Model, Different Harness + HarnessLens：harness 才是被测的解题器","first_seen":"2026-08-28","seen_dates":"2026-08-28","source":"seed-from-history"}
+{"id":"2608.27427","kind":"arxiv","title":"第二梯队（值得知道，暂不展开）","first_seen":"2026-08-28","seen_dates":"2026-08-28","source":"seed-from-history"}
+{"id":"jhxu5214/HarnessLens","kind":"github","title":"Same Model, Different Harness + HarnessLens：harness 才是被测的解题器","first_seen":"2026-08-28","seen_dates":"2026-08-28","source":"seed-from-history"}
+{"id":"2512.24601","kind":"arxiv","title":null,"first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"2601.11868","kind":"arxiv","title":"补充清单（值得扫一眼，不必精读）","first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"2602.06052","kind":"arxiv","title":null,"first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"2604.25850","kind":"arxiv","title":null,"first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"2605.09998","kind":"arxiv","title":"Prime Agent: A Self-Improving RLM Harness（+ Continual Harness）","first_seen":"2026-08-29","seen_dates":"2026-08-29,2026-09-01","source":"seed-from-history"}
+{"id":"2605.18747","kind":"arxiv","title":"补充清单（值得扫一眼，不必精读）","first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"2607.08964","kind":"arxiv","title":"补充清单（值得扫一眼，不必精读）","first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"2608.03392","kind":"arxiv","title":"补充清单（值得扫一眼，不必精读）","first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"openai/codex","kind":"github","title":"补充清单（值得扫一眼，不必精读）","first_seen":"2026-08-29","seen_dates":"2026-08-29,2026-09-01","source":"seed-from-history"}
+{"id":"YennNing/Awesome-Code-as-Agent-Harness-Papers","kind":"github","title":"补充清单（值得扫一眼，不必精读）","first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"zli12321/LHTB","kind":"github","title":"补充清单（值得扫一眼，不必精读）","first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code","kind":"web","title":null,"first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"https://claude.com/blog/harnessing-claudes-intelligence","kind":"web","title":null,"first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"https://www.primeintellect.ai/blog/prime-agent","kind":"web","title":null,"first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"https://www.tbench.ai/","kind":"web","title":"补充清单（值得扫一眼，不必精读）","first_seen":"2026-08-29","seen_dates":"2026-08-29","source":"seed-from-history"}
+{"id":"2607.03451","kind":"arxiv","title":"SkillOpt 系列 + 自进化安全审计","first_seen":"2026-08-30","seen_dates":"2026-08-30","source":"seed-from-history"}
+{"id":"2608.01964","kind":"arxiv","title":"LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks","first_seen":"2026-08-30","seen_dates":"2026-08-30","source":"seed-from-history"}
+{"id":"2608.09629","kind":"arxiv","title":"SkillOpt 系列 + 自进化安全审计","first_seen":"2026-08-30","seen_dates":"2026-08-30","source":"seed-from-history"}
+{"id":"2608.17684","kind":"arxiv","title":"SkillOpt 系列 + 自进化安全审计","first_seen":"2026-08-30","seen_dates":"2026-08-30","source":"seed-from-history"}
+{"id":"AMAP-ML/LongHorizon-Harness","kind":"github","title":"LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks","first_seen":"2026-08-30","seen_dates":"2026-08-30","source":"seed-from-history"}
+{"id":"https://cursor.com/blog/reward-hacking-coding-benchmarks","kind":"web","title":"Cursor: Reward hacking is swamping model intelligence gains","first_seen":"2026-08-30","seen_dates":"2026-08-30,2026-09-01","source":"seed-from-history"}
+{"id":"2608.25512","kind":"arxiv","title":"快速扫描（值得知道，不必精读）","first_seen":"2026-08-31","seen_dates":"2026-08-31","source":"seed-from-history"}
+{"id":"2608.27831","kind":"arxiv","title":"快速扫描（值得知道，不必精读）","first_seen":"2026-08-31","seen_dates":"2026-08-31","source":"seed-from-history"}
+{"id":"2608.27969","kind":"arxiv","title":"openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents","first_seen":"2026-08-31","seen_dates":"2026-08-31","source":"seed-from-history"}
+{"id":"2608.28281","kind":"arxiv","title":"快速扫描（值得知道，不必精读）","first_seen":"2026-08-31","seen_dates":"2026-08-31","source":"seed-from-history"}
+{"id":"2608.28476","kind":"arxiv","title":"快速扫描（值得知道，不必精读）","first_seen":"2026-08-31","seen_dates":"2026-08-31","source":"seed-from-history"}
+{"id":"sydches/yuj","kind":"github","title":"Same Model, Different Harness: Different Coding-Agent Results","first_seen":"2026-08-31","seen_dates":"2026-08-31","source":"seed-from-history"}
+{"id":"2608.25920","kind":"arxiv","title":"值得一并扫描（不展开，但都已核实）","first_seen":"2026-09-01","seen_dates":"2026-09-01","source":"seed-from-history"}
+{"id":"2608.27487","kind":"arxiv","title":"值得一并扫描（不展开，但都已核实）","first_seen":"2026-09-01","seen_dates":"2026-09-01","source":"seed-from-history"}
+{"id":"2608.28497","kind":"arxiv","title":"值得一并扫描（不展开，但都已核实）","first_seen":"2026-09-01","seen_dates":"2026-09-01","source":"seed-from-history"}
+{"id":"2608.28795","kind":"arxiv","title":"The reach of a verification tool decides its value","first_seen":"2026-09-01","seen_dates":"2026-09-01","source":"seed-from-history"}
+{"id":"2608.29675","kind":"arxiv","title":"值得一并扫描（不展开，但都已核实）","first_seen":"2026-09-01","seen_dates":"2026-09-01","source":"seed-from-history"}
+{"id":"2608.29685","kind":"arxiv","title":"值得一并扫描（不展开，但都已核实）","first_seen":"2026-09-01","seen_dates":"2026-09-01","source":"seed-from-history"}
+{"id":"2608.30300","kind":"arxiv","title":"值得一并扫描（不展开，但都已核实）","first_seen":"2026-09-01","seen_dates":"2026-09-01","source":"seed-from-history"}
+{"id":"2608.31111","kind":"arxiv","title":"值得一并扫描（不展开，但都已核实）","first_seen":"2026-09-01","seen_dates":"2026-09-01","source":"seed-from-history"}
+{"id":"https://deepseek-harness.github.io/deepseek-harness/","kind":"web","title":"1 DeepSeek Harness (`dsh`) — everything-is-a-plugin","first_seen":"2026-09-01","seen_dates":"2026-09-01","source":"seed-from-history"}
+{"id":"https://doi.org/10.5281/zenodo.21961590","kind":"web","title":"The reach of a verification tool decides its value","first_seen":"2026-09-01","seen_dates":"2026-09-01","source":"seed-from-history"}
+{"id":"https://loopsbench.ai/","kind":"web","title":"LoopsBench: From Harness Engineering to Loop Engineering in Coding Agent Evaluation","first_seen":"2026-09-01","seen_dates":"2026-09-01","source":"seed-from-history"}
+{"id":"https://www.infoq.com/news/2026/08/deep-seek-harness/","kind":"web","title":"1 DeepSeek Harness (`dsh`) — everything-is-a-plugin","first_seen":"2026-09-01","seen_dates":"2026-09-01","source":"seed-from-history"}
