@@ -55,11 +55,11 @@ python -m pip install -r .\_tools\requirements.txt
 
 前三个任务负责生成内容。归档任务负责生成目标用户自己的每日 HTML 和 `index.html`。
 
-## 使用现有去重台账
+## 初始化去重台账
 
-当前 Repo 包含现有 `covered-seed.jsonl`、`covered-gpt.jsonl` 和 `covered-opus.jsonl`，朋友可以继承已覆盖条目，避免再次推荐相同内容。
+Repo 中的 `covered-seed.jsonl`、`covered-gpt.jsonl` 和 `covered-opus.jsonl` 是空白模板，不包含分享者的历史记录。
 
-如果希望从零开始，应另外初始化独立台账，不要直接覆盖这些文件后与旧数据混用。
+Automation 会按 `AUTOMATIONS.md` 中定义的 JSONL 格式逐行追加目标用户自己的入选内容。字段说明与示例见 `去重台账/README.md`。
 
 ## 注意
 
